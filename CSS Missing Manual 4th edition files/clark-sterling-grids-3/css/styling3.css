@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 17px verdana, arial, sans-serif;
+  margin: 0;
+}
+
+body > header {
+  background-image: url(../images/banner.jpg);
+  margin-bottom: 1rem;
+  min-height: 200px;
+}
+
+body > header h1 {
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 5rem;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+#specialties {
+  padding: 0.5rem;
+}
+
+#specialties li {
+  border-bottom: 1px dotted #666;
+  list-style-image: url(../images/checkmark.png);
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+#signup {
+  background-color: #f5b45b;
+  border-radius: 1rem;
+  margin: 0 0.5rem 0 0.5rem;
+  padding: 1rem;
+}
+
+#signup img {
+  border: 5px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #333;
+}
+
+#signup h2 {
+  margin-top: 0;
+}
+#signup a {
+  color: #333;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+#classes {
+  padding: 0.5rem;
+}
+
+#classes div {
+  box-shadow: 0 0 5px #000;
+  margin-bottom: 1rem;
+  max-width: 200px;
+  padding-bottom: 0.5rem;
+}
+
+#classes div p {
+  font-weight: bold;
+  margin-bottom: 0;
+  padding-left: 1rem;
+}
+
+#classes div a {
+  color: #af760e;
+  padding-left: 1rem;
+}
+
+#founder {
+  padding: 0.5rem;
+}
+
+#testimonials {
+  padding: 0.5rem;
+}
+
+#testimonials > div {
+  margin-bottom: 0.5rem;
+}
+
+#testimonials div p {
+  background-color: #ddd;
+  border-radius: 0.5rem 0.5rem 0 0;
+  padding: 2rem;
+  margin: 0;
+}
+
+#testimonials p:nth-of-type(2) {
+  background-color: #fda400;
+  border-radius: 0 0 0.5rem 0.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  margin-top: 1rem;
+  padding: 1rem;
+}
